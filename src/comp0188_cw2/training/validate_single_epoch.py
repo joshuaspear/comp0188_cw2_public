@@ -50,7 +50,7 @@ class ValidateSingleEpoch:
         """
 
         losses = torch.tensor(0.0)
-        denom = torch.tensor(0)
+        denom = torch.tensor(0.0)
         if gpu:
             _device = "cuda"
         else:
